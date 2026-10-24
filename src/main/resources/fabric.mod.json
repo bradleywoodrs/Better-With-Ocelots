@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "betterwithocelots",
+	"version": "${version}",
+	"name": "Better With Ocelots",
+	"description": "This mod brings back ocelots and cats to BTA!",
+	"authors": [
+		"bradleywoodrs"
+	],
+	"contributors": [
+		"cosmic306"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"icon": "icon.png",
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bradleywoodrs.betterwithocelots.BetterWithOcelots"
+		],
+		"client": [
+			"bradleywoodrs.betterwithocelots.BetterWithOcelotsClient"
+		]
+	},
+	"mixins": [
+		"betterwithocelots.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${fabricloader}",
+		"minecraft": "*",
+		"java": ">=${java}",
+		"halplibe": ">=${halplibe}"
+	},
+	"suggests": {
+		"modmenu": ">=${modmenu}"
+	}
+}

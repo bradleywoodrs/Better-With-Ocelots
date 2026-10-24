@@ -1,0 +1,16 @@
+betterwithocelots.ocelot.name=Ocelot
+betterwithocelots.ocelot.desc=Ocelots are found exclusively in rainforest biomes and can be tamed using raw fish. They are extremely skittish, so you must sneak to approach them.
+betterwithocelots.cat.name=Cat
+betterwithocelots.cat.desc=Cats are tamed ocelots and can be bred with raw fish. They follow their owner and love to cause mayhem and kittens will ride on their owner's shoulder.
+stat.betterwithocelots.catsTamed=Cats Tamed
+subtitles.mob.ocelot.meow=Ocelot meow sound
+subtitles.mob.ocelot.hitt=Ocelot hitt sound
+subtitles.mob.ocelot.purreow=Ocelot purreow sound
+subtitles.mob.ocelot.purr=Ocelot purr sound
+item.betterwithocelots.milk_of_eternal_youth.name=Milk of Eternal Youth
+item.betterwithocelots.milk_of_eternal_youth.desc=A bucket of shimmering milk.
+item.betterwithocelots.milk_of_eternal_youth.iron.name=Iron Bucket of Milk of Eternal Youth
+item.betterwithocelots.milk_of_eternal_youth.steel.name=Steel Bucket of Milk of Eternal Youth
+item.betterwithocelots.youthful_flower_blend.name=Youthful Flower Blend
+item.betterwithocelots.youthful_flower_blend.desc=A sparkling blend of flowers.
+betterwithocelots.milk_of_eternal_youth.drink=Yuck, that tasted like flowers...

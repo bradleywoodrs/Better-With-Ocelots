@@ -1,0 +1,34 @@
+{
+  "mob.ocelot.meow": {
+    "subtitle": "subtitles.mob.ocelot.meow",
+    "sounds": [
+      "../../newsound/mob/cat/meow1.ogg",
+      "../../newsound/mob/cat/meow2.ogg",
+      "../../newsound/mob/cat/meow3.ogg",
+      "../../newsound/mob/cat/meow4.ogg"
+    ]
+  },
+  "mob.ocelot.purreow": {
+    "subtitle": "subtitles.mob.ocelot.purreow",
+    "sounds": [
+      "../../newsound/mob/cat/purreow1.ogg",
+      "../../newsound/mob/cat/purreow2.ogg"
+    ]
+  },
+  "mob.ocelot.hitt": {
+    "subtitle": "subtitles.mob.ocelot.hitt",
+    "sounds": [
+      "../../newsound/mob/cat/hitt1.ogg",
+      "../../newsound/mob/cat/hitt2.ogg",
+      "../../newsound/mob/cat/hitt3.ogg"
+    ]
+  },
+  "mob.ocelot.purr": {
+    "subtitle": "subtitles.mob.ocelot.purr",
+    "sounds": [
+      "../../newsound/mob/cat/purr1.ogg",
+      "../../newsound/mob/cat/purr2.ogg",
+      "../../newsound/mob/cat/purr3.ogg"
+    ]
+  }
+}

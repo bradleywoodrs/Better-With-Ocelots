@@ -1,0 +1,7 @@
+{
+    "model_paths": [
+        "/assets/betterwithocelots/models/entity/ocelot.json",
+        "/assets/betterwithocelots/models/entity/holidays/hat_witch.json",
+        "/assets/betterwithocelots/models/entity/holidays/hat_santa.json"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "bradleywoodrs.betterwithocelots.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "mixins": [
+    "MobCowMixin",
+    "ItemBucketMixin",
+    "MobCreeperMixin",
+    "MobMixin",
+    "MobMonsterMixin",
+    "PlayerMixin",
+    "StatListMixin"
+  ],
+  "client": [
+    "GuidebookPageMobMixin",
+    "GuidebookSectionMobIndexMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
