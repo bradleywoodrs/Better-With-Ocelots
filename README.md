@@ -30,6 +30,6 @@ AI Disclosure:
 - All code was written and thoroughly looked through by me for mistakes/errors.
 - All cat code that is not custom was directly ported from Mojang 1.2.5 deobf code, and slightly changed to work with bta.
 - The only usage of AI in this mod was for speeding up my development process such as: 
-Mixin/code structure suggestions. (But code is written and and tested by me.)
+Mixin/code structure suggestions. (But code is written and tested by me.)
 Researching BTA! class files for help finding code. 
 Helping me understand BTA! and deobf Minecraft code, and how it's meant to work.
