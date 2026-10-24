@@ -1,6 +1,8 @@
 # BetterWithOcelots
 
-- Ocelots only spawn in rainforest biomes, one per spawn attempt, and can’t spawn below y 63.
+This mod adds ocelots and cats into BTA!
+
+- Ocelots only spawn in rainforest biomes, and can’t spawn below y 63.
 - Sneaking up to an ocelot while holding a raw fish has a chance to tempt it closer, and right clicking it with a raw fish has a chance to tame it into a cat.
 - Right clicking a tamed cat will make it sit down at that loc.
 - Right clicking a tamed cat with a fish will heal that cat if hurt, or put it into breed mode if it’s at full health.
@@ -20,3 +22,14 @@
 - Youthful Flower Blend when given to a cow has a chance to turn the cow into a youthful cow.
 - Using a bucket on a youthful cow will give you a Bucket of Milk of Eternal Youth.
 - Using a Bucket of Milk of Eternal Youth on a kitten will allow that kitten to stay a kitten forever regardless of config setting.
+
+AI Disclosure:
+- All textures/models were created by me, except for cat textures/models (Those were by mojang)
+- All descriptions and texts were written by me or the community.
+- All ideas were come up with either by me or the community.
+- All code was written and thoroughly looked through by me for mistakes/errors.
+- All cat code that is not custom was directly ported from Mojang 1.2.5 deobf code, and slightly changed to work with bta.
+- The only usage of AI in this mod was for speeding up my development process such as: 
+Mixin/code structure suggestions. (But code is written and and tested by me.)
+Researching BTA! class files for help finding code. 
+Helping me understand BTA! and deobf Minecraft code, and how it's meant to work.
