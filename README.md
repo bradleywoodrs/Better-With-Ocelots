@@ -1,4 +1,4 @@
-# BetterWithOcelots
+# Better With Ocelots
 
 This mod adds ocelots and cats into BTA!
 
