@@ -308,7 +308,7 @@ public class MobOcelot extends MobAnimal {
 		}
 
 		Block<?> below = Blocks.blocksList[this.world.getBlockId(x, y - 1, z)];
-		return below != null && (below == Blocks.GRASS || below.getMaterial() == Materials.LEAVES);
+		return below != null && (below.hasTag(BlockTags.PASSIVE_MOBS_SPAWN) || below.getMaterial() == Materials.LEAVES);
 	}
 
 	@Override

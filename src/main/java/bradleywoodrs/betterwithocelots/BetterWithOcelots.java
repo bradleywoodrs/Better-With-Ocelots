@@ -33,6 +33,7 @@ public class BetterWithOcelots implements ModInitializer {
 		int spawnWeight = BetterWithOcelotsConfig.CFG.getInt("Cats.spawnWeight");
 		if (spawnWeight > 0) {
 			Biomes.OVERWORLD_RAINFOREST.getSpawnableList(MobCategory.CREATURE).add(new SpawnListEntry(MobOcelot.class, spawnWeight));
+			Biomes.OVERWORLD_LEGACY_RAINFOREST.getSpawnableList(MobCategory.CREATURE).add(new SpawnListEntry(MobOcelot.class, spawnWeight));
 		}
 		SoundTypes.loadSoundsJson(MOD_ID);
 		LOGGER.info("Better With Ocelots loaded.");
