@@ -20,14 +20,14 @@ public class AIFollowOwner extends AITask {
 	@Override
 	boolean shouldExecute() {
 		Player p = this.cat.getOwnerEntity();
-		if (p == null || this.cat.isSittingAny() || this.cat.distanceToSqr(p) < 100.0) return false;
+		if (p == null || this.cat.isSittingAny() || this.cat.hasSitOrder() || this.cat.distanceToSqr(p) < 100.0) return false;
 		this.owner = p;
 		return true;
 	}
 
 	@Override
 	boolean continueExecuting() {
-		return !this.cat.getNavigator().noPath() && this.owner.isAlive() && this.cat.distanceToSqr(this.owner) > 25.0 && !this.cat.isSittingAny();
+		return !this.cat.getNavigator().noPath() && this.owner.isAlive() && this.cat.distanceToSqr(this.owner) > 25.0 && !this.cat.isSittingAny() && !this.cat.hasSitOrder();
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class AIFollowOwner extends AITask {
 	@Override
 	void update() {
 		this.cat.setLook(this.owner, 10.0F, 40.0F);
-		if (this.cat.isSittingAny() || --this.repathTimer > 0) return;
+		if (this.cat.isSittingAny() || this.cat.hasSitOrder() || --this.repathTimer > 0) return;
 		this.repathTimer = REPATH_TICKS;
 		if (this.cat.getNavigator().tryMoveToEntity(this.owner, MobOcelot.SPEED_FOLLOW)) return;
 		if (this.cat.distanceToSqr(this.owner) < 144.0) return;

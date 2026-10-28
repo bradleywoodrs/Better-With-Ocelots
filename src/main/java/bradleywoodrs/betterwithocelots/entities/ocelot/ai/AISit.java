@@ -10,7 +10,12 @@ public class AISit extends AITask {
 
 	@Override
 	boolean shouldExecute() {
-		if (!this.cat.isTamed() || this.cat.isInWater() || !this.cat.onGround) return false;
+		if (!this.cat.isTamed()) return false;
+		if (this.cat.isInWater()) {
+			this.cat.setSitOrder(false);
+			return false;
+		}
+		if (!this.cat.onGround) return false;
 		return this.cat.getOwnerEntity() == null || this.cat.hasSitOrder();
 	}
 
